@@ -14,7 +14,7 @@ public class RegistryDao {
     private static final String QUERY_ACCOUNT_SQL = """
             select count(1)
             from sys_account
-            where email = ?
+            where account_email = ?
             """;
 
     public Long count(AccountQuery query) {

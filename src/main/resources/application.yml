@@ -1,0 +1,8 @@
+server.port: 18000
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/limgrave
+    username: postgres
+    password: 1234
